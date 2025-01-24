@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Document</title>
+</head>
+<body class="darkmode">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+              <a class="navbar-brand" href="#">Injera & Beyond</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Order</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Recipies</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <button class="nav-link" onclick="toggleTheme()" class="toggle-btn"><i class="fa-solid fa-moon"></i></button>
+                  </li>
+    
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+    
+
+    <section class="banner">
+        <div class="banner-img">
+          <div class="background-image-container" aria-describedby="background-description">
+            <p class="sr-only">This section has a background image.</p>
+          </div>
+          <p id="background-description" class="sr-only">This background image represents a traditional food from east-africa.</p>
+          
+          <p class="banner-para">Welcome to Our Online Habesha Restaurant: A Taste of Tradition at Your Doorstep.
+          </p>
+          <div class="banner-link-container">
+            <a class="banner-link" href="#">
+              Order <i class="fa-solid fa-chevron-right"></i> 
+          </a>
+          <a class="banner-link" href="#">
+              Recipies <i class="fa-solid fa-chevron-right"></i> 
+          </a>
+          </div>
+        </div>  
+        <div>
+          <h2 class="heading-underline">Learn more</h2>
+
+          <div class="bottom-articles">
+            <div class="article bottom">
+              <h3 class="article__title bottom-header">Injera</h3>
+              <p class="article__summary">
+                  (Ethiopian/Eritrean Flatbread)
+                Injera is the base of most meals in Ethiopia and Eritrea, and it's made from teff flour, which gives it a unique sour taste.
+
+
+              </p>
+              <p class="article__read-more">
+                <a href="#">
+                  Learn more <i class="fa-solid fa-chevron-right"></i> 
+                </a>
+              </p>
+            </div>
+
+            <div class="article bottom">
+              <h3 class="article__title">Doro Wat</h3>
+              <p class="article__summary">
+                 (Chicken Stew)
+                Doro Wat is one of the most iconic Ethiopian dishes, often reserved for special occasions.
+              </p>
+              <p class="article__read-more">
+                <a href="#">
+                  Learn more <i class="fa-solid fa-chevron-right"></i> 
+                </a>
+              </p>
+            </div>
+          </div>
+
+          
+
+        <!------------------------------bottom articles two----------------------------------------------->
+          <div class="bottom-articles">
+            <div class="article bottom">
+              <h3 class="article__title bottom-header">Title?</h3>
+              <p class="article__summary">
+              Kitfo (Minced Meat)
+              Kitfo is a raw or lightly cooked minced beef dish, often mixed with spices and served with injera.
+              </p>
+              <p class="article__read-more">
+                <a href="#">
+                Learn more <i class="fa-solid fa-chevron-right"></i> 
+                </a>
+              </p>
+            </div>
+
+            <div class="article bottom">
+              <h3 class="article__title">Title</h3>
+              <p class="article__summary">
+              Shiro (Chickpea Stew)
+              Shiro is a thick stew made from ground chickpeas or lentils, and it's often served as a vegetarian option.
+              </p>
+              <p class="article__read-more">
+                <a href="#">
+                Learn more <i class="fa-solid fa-chevron-right"></i> 
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <h1>Discover our amazing deals</h1>
+    <section class="deals">
+      <div class="background-image-container" aria-describedby="background-description">
+        <p class="sr-only">This section has a background image.</p>
+      </div>
+      <p id="background-description" class="sr-only">This background image represents a traditional food from east-africa.</p>
+      <div class="deal_container deal_container1">
+        <h3 class="combo_name"><span class="highlight">Zigni (Spicy Beef Stew) + Injera</span></h3>
+        <p class="price"> <span class="highlight" >£15.99</span></p>
+        <a class="banner-link combo-link" href="#">
+          Order <i class="fa-solid fa-chevron-right"></i> 
+        </a>
+      </div>
+
+      <div class="deal_container deal_container2">
+        <h3 class="combo_name"><span class="highlight">Beef Stew</span> </h3>
+        <p class="price"><span class="highlight">£13.99,</span></p>
+        <a class="banner-link combo-link" href="#">
+          Order <i class="fa-solid fa-chevron-right"></i> 
+        </a>
+      </div>
+
+      <div class="deal_container deal_container3">
+        <h3 class="combo_name"> <span class="highlight">Misir Wat (Lentil Stew) + Gomen (Collard Greens)</span></h3>
+        <p class="price"> <span class="highlight"> £11.99</span></p>
+        <a class="banner-link combo-link" href="#">
+          Order <i class="fa-solid fa-chevron-right"></i> 
+        </a>
+      </div>
+
+      <div class="deal_container deal_container4">
+        <h3 class="combo_name"> <span class="highlight"> Sambusa (Savory Pastry)</span></h3>
+        <p class="price"> <span class="highlight">£2.99</span> </p>
+        <a class="banner-link combo-link" href="#">
+          Order <i class="fa-solid fa-chevron-right"></i> 
+        </a>
+      </div>
+    </section>
+
+
+
+<!------------- ---------footer------------>
+    <footer>
+      <div class="footer">
+        <div class="footer__content">
+          <p>
+            <strong>Injera & beyond 2025</strong>
+        </div>
+      </div>
+    </footer>
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl       +NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous" >
+      src="script.js"
+    </script>
+
+<script src="script.js"></script>
+</body>
+</html>

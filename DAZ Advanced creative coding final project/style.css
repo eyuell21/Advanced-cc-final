@@ -1,0 +1,200 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0, 0, 0, 0); /* Hides the text visually but keeps it accessible */
+  overflow: hidden;
+}
+
+
+header{
+    background-color: black;
+}
+
+.banner-img{
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("..//project-1-img/Injera+with+the+fixins.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.banner-para{
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 100px;
+}
+.banner-link {
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+    padding-left: 50px;
+}
+.banner-link-container{
+  margin-left: 37%;
+}
+
+.banner banner-img banner-link a {
+    color: burlywood;
+    text-align: center;
+}
+
+
+
+/* Article */
+
+.bottom{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.bottom-articles{
+  gap: 10px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.article {
+    margin-bottom: 1rem;
+    border: 1px bisque solid;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .article__title {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  
+  
+  .article__summary {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  
+  .article__read-more {
+    margin-top: 0;
+  }
+  
+  .article__read-more a {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--orange-dark);
+    text-decoration: none;
+  }
+  
+  .article__read-more a:hover,
+  .article__read-more a:focus {
+    text-decoration: underline;
+  }
+
+  .icon {
+    font-size: 30px;
+    margin-left: 3px;
+}
+
+
+.dark-theme {
+  background-color: #2C3333;
+  color: #E0E0E0;
+  font-family: 'Arial', sans-serif;
+}
+/* deals section */
+
+.combo_name, .price{
+  text-align: center;
+  padding-top: 10%;
+  font-weight: bolder;
+}
+
+.combo-link{
+  margin-left: 44%;
+  font-size: x-large;
+  color:white;
+}
+
+.deals{
+  background: #000;
+  border: white 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  gap: 10px;
+}
+.deal_container{
+  border: wheat 2px solid;
+  width: 100%;
+  height: 400px;
+  color: white;
+}
+
+.highlight {
+  background-color: #2F4F4F;
+  color: #fff;
+  font-weight: bold;
+}
+.deal_container1{
+  background-image: url("..//project-1-img/Rolled+Injera.jpg");
+}
+.deal_container2{
+  background-image: url("..//project-1-img/beef\ stew.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.deal_container3{
+  background-image: url("..//project-1-img/mixed\ platter\ with\ injera\ vegetarian.jpg");
+}
+.deal_container4{
+  background-image: url("..//project-1-img/samosas.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.hidden-content{
+  display: none;
+}
+.hidden-content.reveal-btn{
+  display: block;
+}
+
+
+
+
+
+/* footer */
+.footer {
+    margin-top: 10px; 
+  }
+  
+  .footer__content {
+    border-top: 2px solid black;
+
+  }
+  
+  .footer p {
+
+    text-align: center;
+    font-size: 0.85rem;
+  }
